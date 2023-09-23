@@ -13,4 +13,4 @@ A regular one-page website that utilizes:
 - Google maps integration%
 
 ### Preview
-![Preview](https://github.com/commadot2/pet_pulse/blob/main/preview.mp4)
+![](preview.gif)
