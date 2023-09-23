@@ -1,3 +1,4 @@
+### Description
 A regular one-page website that utilizes:
 - CSS Selectors
 - CSS Pseudo classes
@@ -10,3 +11,6 @@ A regular one-page website that utilizes:
 - BEM principles
 - SEO optimization
 - Google maps integration%
+
+### Preview
+[![Preview]()](https://drive.google.com/file/d/1Y-Q3haDmfygEpJXSS1eUhqkpg3rRBTex/view)
