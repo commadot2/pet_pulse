@@ -1,0 +1,12 @@
+A regular one-page website that utilizes:
+- CSS Selectors
+- CSS Pseudo classes
+- SCSS
+- Animations (wow.js, animate.css, tns carousel)
+- Fonts
+- Responsive/Adaptive
+- Gulp (outside repo)
+- Bootstrap
+- BEM principles
+- SEO optimization
+- Google maps integration%
