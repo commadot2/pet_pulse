@@ -1,0 +1,67 @@
+
+.btn {
+    font-size: 12px;
+    background-color: $main-color;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+        background-color: $main-color-lighten;
+    }
+
+    &_banner {
+        width: 303px;
+        height: 54px;
+        font-size: 16px;
+    }
+
+    &_catalog-nav {
+        width: 223px;
+        height: 52px;
+        line-height: 52px;
+        margin-right: 12px;
+        transform: skew(-20deg);
+        color: #6B6B6B;
+        background-color: #fff;
+        font-size: 16px;
+        text-align: center;
+        border: #D0D0D0 2px solid;
+        border-radius: 0;
+        transition: background-color .5s ease, color .2s ease, border .5s ease;
+        box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.15);
+
+
+        span {
+            display: inline-block;
+            transform: skew(20deg);
+            user-select: none;
+        }
+        &:hover, &--active {
+            background-color: $main-color;
+            color: #fff;
+            box-shadow: 4px 6px 20px rgba($main-color, 0.6);
+            border: $main-color 2px solid;
+        }
+        &--active:hover {
+            background-color: $main-color-lighten;
+            border: $main-color-lighten 2px solid;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &_catalog-mini {
+        width: 50%; // 100% - catalog__item-prices width
+        height: 44px;
+        line-height: 44px;
+        float: left;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}

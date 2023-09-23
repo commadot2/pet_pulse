@@ -1,0 +1,57 @@
+.header {
+    &__logo {
+        width: 250px;
+        height: 45px;
+        >img {
+            max-width: 250px;
+        }
+    }
+
+    &__official {
+        text-align: center;
+        font-size: 12px;
+    
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 18px;
+            margin-top: 2px;
+        }
+    }
+
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__phone-number {
+        font-weight: 700;
+        font-size: 18px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &__btn {
+        width: 153px;
+        height: 32px;
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+}
+
+
+@media only screen and (min-width : 768px) {
+    .header {
+        &__logo >img{
+            max-width: 220px;
+        }
+        &__official >span {
+                font-size: 16px;
+        }
+        &__phone-number {
+            font-size: 16px;
+        } 
+    }
+}

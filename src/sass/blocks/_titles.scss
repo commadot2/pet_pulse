@@ -1,0 +1,33 @@
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+
+    &_advantages {
+        font-size: 30px;
+    }
+
+    &_left {
+        text-align: left;
+    }
+
+    &_consultation {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    &_reviews {
+        color: #000;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .title {
+        &_consultation {
+            font-size: 28px;
+            line-height: 50px;
+        }
+    }
+}

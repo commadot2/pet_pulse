@@ -1,0 +1,28 @@
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 260px;
+    >input {
+        width: 100%;
+        height: 50px;
+        padding-left: 20px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+        background-color: #fff;
+        font-size: 15px;
+        border: none;
+        &::placeholder {
+            vertical-align: middle;
+            color: #4b4b4b;
+            // color: #000000;
+        }
+        &:focus {
+            border: none;
+        }
+    }
+
+    &_consultation {
+        margin-top: 40px;
+    }
+}

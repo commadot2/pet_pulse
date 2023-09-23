@@ -1,0 +1,23 @@
+@import 'base/_vars';
+@import 'blocks/_banner';
+@import 'blocks/_header';
+@import 'blocks/_buttons';
+@import 'blocks/_advantages';
+@import 'blocks/_consultation';
+@import 'blocks/_titles';
+@import 'blocks/_forms';
+@import 'blocks/_carousel';
+@import 'blocks/_catalog';
+@import 'blocks/_reviews';
+@import 'blocks/_footer';
+
+* {
+    font-family: $default-font;
+}
+
+
+body {
+    margin: 0;
+    color: #fff;
+}
+

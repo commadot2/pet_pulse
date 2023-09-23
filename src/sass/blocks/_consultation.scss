@@ -1,0 +1,20 @@
+.consultation {
+    min-height: 680px;
+    background: url('../img/consultation/bg.png') center (center/cover) no-repeat;
+    padding: 100px 0 108px 0;
+
+    &__descr {
+        font-size: 21px;
+        display: block;
+        margin-top: 4px;
+        line-height: 34px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .consultation {
+        &__descr {
+            font-size: 18px;
+        }
+    }
+}

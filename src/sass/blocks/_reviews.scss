@@ -1,0 +1,43 @@
+.reviews {
+    margin-top: 80px;
+    padding-bottom: 60px;
+
+    &__item {
+        margin-top: 60px;
+        padding-right: 20px;
+        &-image {
+            width: 169px;
+            float: left;
+            margin-right: 61px;
+
+            >img {
+                max-width: 100%
+            }
+        }
+        &-text-block {
+            overflow: hidden;
+            color: #000;
+        }
+
+        &-name {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+        &-count {
+            color: #646464;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            margin-top: 5px;
+        }
+
+        &-text {
+            font-weight: 300;
+            font-size: 16px;
+            margin-top: 10px;
+            line-height: 24px;
+        }
+    }
+}

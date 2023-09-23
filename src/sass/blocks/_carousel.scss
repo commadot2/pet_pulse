@@ -1,0 +1,46 @@
+.carousel {
+    padding: 81px 0;
+
+    .tns-slider {
+        // height: 100%; // without adaptiveHeight in slick
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .carousel__item>img {
+            display: block;
+            margin: auto auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    
+    .tns-outer {
+        button[data-controls="prev"], button[data-controls="next"]{
+            position: absolute;
+            background-color: #fff;
+            border: none;
+            top: 50%;
+            transition: transform .3s ease;
+            &:focus {
+                outline: none;
+            }
+            &:hover {
+                    transform: scale(1.1);
+            }
+            &.clicked {
+                transition: transform .1s ease;
+                transform: scale(0.9);
+            }
+        }
+        button[data-controls="prev"] {
+            right: 100%;
+        }
+        button[data-controls="next"] {
+            left: 100%;
+        }
+
+        .tns-nav {
+            display: none;
+        }
+    }
+}
