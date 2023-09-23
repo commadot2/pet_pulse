@@ -5,7 +5,7 @@ A regular one-page website that utilizes:
 - Animations (wow.js, animate.css, tns carousel)
 - Fonts
 - Responsive/Adaptive
-- Gulp (outside repo)
+- Gulp
 - Bootstrap
 - BEM principles
 - SEO optimization
