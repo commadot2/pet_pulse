@@ -10,8 +10,8 @@ A regular one-page website that utilizes:
 - Bootstrap
 - BEM principles
 - SEO optimization
-- Google maps integration%
+- Google maps integration
 
 ### Preview
-[![Preview](https://img.youtube.com/vi/U4lXRosyS3s/0.jpg)](https://www.youtube.com/watch?v=U4lXRosyS3s)
+[![Preview](https://i.ytimg.com/vi/U4lXRosyS3s/maxres1.jpg)](https://www.youtube.com/watch?v=U4lXRosyS3s)
 
