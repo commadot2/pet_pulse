@@ -13,4 +13,4 @@ A regular one-page website that utilizes:
 - Google maps integration%
 
 ### Preview
-![](https://youtu.be/U4lXRosyS3s)
+![](https://www.youtube.com/watch?v=U4lXRosyS3s)
