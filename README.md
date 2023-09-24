@@ -14,5 +14,6 @@ A regular one-page website that utilizes:
 
 ### Preview
 
-https://github.com/commadot2/pet_pulse/assets/113248392/9efcbb0b-fc42-4d80-a87d-2a1a9e91235e
+https://github.com/commadot2/pet_pulse/assets/113248392/de74abd1-8b21-41cc-a8bc-88b337abe49f
+
 
